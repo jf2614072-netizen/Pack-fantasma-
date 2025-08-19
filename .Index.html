@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pack Fantasma - Download</title>
+  <style>
+    body {font-family: Arial, sans-serif; margin:0; padding:0; background:#f5f7fa; color:#222;}
+    .container {max-width:800px; margin:40px auto; background:#fff; border-radius:12px; padding:30px; box-shadow:0 6px 18px rgba(0,0,0,0.1);}
+    h1 {margin-top:0; font-size:26px; color:#333;}
+    .desc {margin-bottom:20px; line-height:1.6;}
+    .btns {display:flex; gap:12px; margin:20px 0;}
+    .btn {padding:12px 18px; border-radius:8px; text-decoration:none; font-weight:bold; color:#fff; background:#007bff; transition:.3s;}
+    .btn:hover {background:#0056b3;}
+    .alt {background:#555;}
+    .info {margin:15px 0;}
+    .info strong {display:inline-block; width:100px;}
+    .footer {margin-top:30px; text-align:center; color:#888; font-size:14px;}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>Pack Fantasma</h1>
+    <p class="desc">Painel anti ban para o Free Fire.</p>
+
+    <div class="btns">
+      <a href="https://www.mediafire.com/file/l9ln72jakft7fwr/Pack+Fantasma+ff+iPhone+.zip/file" class="btn">⬇️ Baixar agora</a>
+    </div>
+
+    <div class="info"><strong>Arquivo:</strong> Pack Fantasma</div>
+    <div class="info"><strong>Tamanho:</strong> 474,5 MB</div>
+
+    <div class="footer">© <span id="year"></span> Pack Anti Ban</div>
+  </div>
+
+  <script>
+    // Atualiza o ano automaticamente
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
